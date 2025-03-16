@@ -15,7 +15,7 @@ export function CheckAnswer({
                 onChange={(e) => {setUserAnswer(e.target.value)}}
                 placeholder="Enter your answer"
             />
-            <span>{userAnswer === expectedAnswer ? " ✔️" : " ❌"}</span>
+            <span>{userAnswer === expectedAnswer ? "✔️" : "❌"}</span>
         </div>
     );
 }
