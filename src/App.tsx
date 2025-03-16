@@ -10,14 +10,11 @@ import { DoubleHalf } from "./bad-components/DoubleHalf";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
-<<<<<<< HEAD
-=======
 import { CheckAnswer } from "./form-components/CheckAnswer";
 import { GiveAttempts } from "./form-components/GiveAttempts";
 import { EditMode } from "./form-components/EditMode";
 import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
 import { ChangeColor } from "./form-components/ChangeColor";
->>>>>>> origin/task-forms
 
 function App(): React.JSX.Element {
     return (
@@ -25,20 +22,6 @@ function App(): React.JSX.Element {
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript
             </header>
-<<<<<<< HEAD
-
-            <p>
-                Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload.
-            </p>
-
-            <hr></hr>
-
-            { <DoubleHalf></DoubleHalf> }
-
-            {<DoubleHalf></DoubleHalf>}
-
-=======
             <hr></hr>
             <CheckAnswer expectedAnswer="42"></CheckAnswer>
             <hr></hr>
@@ -54,7 +37,6 @@ function App(): React.JSX.Element {
             ></MultipleChoiceQuestion>
             <hr></hr>
             {/* <DoubleHalf></DoubleHalf> */}
->>>>>>> origin/task-forms
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
@@ -73,10 +55,6 @@ function App(): React.JSX.Element {
             <ChangeType></ChangeType>
             <hr />
             <CycleHoliday></CycleHoliday>
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/task-forms
         </div>
     );
 }

@@ -11,7 +11,6 @@ const PEOPLE = [
 ];
 
 export function ChooseTeam(): React.JSX.Element {
-<<<<<<< HEAD
     const [allOptions] = useState<string[]>(PEOPLE);
     const [team, setTeam] = useState<string[]>([]);
 
@@ -25,23 +24,6 @@ export function ChooseTeam(): React.JSX.Element {
 
     function clearTeam() {
         setTeam([]);
-=======
-    const [allOptions, setAllOptions] = useState<string[]>(PEOPLE);
-    const [team, setTeam] = useState<string[]>([]);
-
-    function chooseMember() {
-        /*
-        if (!team.includes(newMember)) {
-            team.push(newMember);
-        }
-        */
-    }
-
-    function clearTeam() {
-        /*
-        team = [];
-        */
->>>>>>> origin/task-forms
     }
 
     return (
@@ -51,14 +33,7 @@ export function ChooseTeam(): React.JSX.Element {
                 <Col>
                     {allOptions.map((option: string) => (
                         <div key={option} style={{ marginBottom: "4px" }}>
-<<<<<<< HEAD
                             Add <Button onClick={() => {chooseMember(option)}} size="sm">{option}</Button>
-=======
-                            Add{" "}
-                            <Button onClick={chooseMember} size="sm">
-                                {option}
-                            </Button>
->>>>>>> origin/task-forms
                         </div>
                     ))}
                 </Col>
