@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> origin/task-components
 >>>>>>> solved-components
+=======
+>>>>>>> origin/task-forms
 build/
 
 # Logs
@@ -140,6 +143,7 @@ package-lock.json
 .yarn/build-state.yml
 .yarn/install-state.gz
 <<<<<<< HEAD
+<<<<<<< HEAD
 .pnp.*
 =======
 <<<<<<< HEAD
@@ -173,3 +177,6 @@ yarn-error.log*
 .pnp.*
 >>>>>>> origin/task-components
 >>>>>>> solved-components
+=======
+.pnp.*
+>>>>>>> origin/task-forms

@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import { QuestionType } from "../interfaces/question";
 
 export function ChangeType(): React.JSX.Element {
+<<<<<<< HEAD
     const [questionType, setQuestionType] = useState<QuestionType>("short_answer_question");
 
     const toggleQuestionType = () => {
@@ -19,4 +20,7 @@ export function ChangeType(): React.JSX.Element {
             <Button onClick={toggleQuestionType}>Change Type</Button>
         </div>
     );
+=======
+    return <div>Change Type</div>;
+>>>>>>> origin/task-forms
 }
