@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
 export function StartAttempt(): React.JSX.Element {
-<<<<<<< HEAD
   const [attempts, setAttempts] = useState<number>(4);
   const [inProgress, setInProgress] = useState<boolean>(false);
 
@@ -33,7 +32,4 @@ export function StartAttempt(): React.JSX.Element {
       <div>Attempts left: {attempts}</div>
     </div>
   );
-=======
-    return <div>Start Attempt</div>;
->>>>>>> origin/task-forms
 }
